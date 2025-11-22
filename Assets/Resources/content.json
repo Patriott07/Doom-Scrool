@@ -1,0 +1,259 @@
+{
+  "contents": [
+    {
+      "id": 1,
+      "description": "Pemandangan senja dari atap gedung. Tenang dan hangat.",
+      "effect_name": "mood",
+      "effect": 2,
+      "dialogue": [
+        "Wah… langitnya cakep banget.",
+        "Kayaknya hidup aman-aman aja kalo liat ini."
+      ],
+      "commments": [
+        {"name": "Arya", "comment": "Indah banget tempatnya."},
+        {"name": "Lina", "comment": "Pengen liat langsung!"},
+        {"name": "Reno", "comment": "Vibenya nyaman banget sih."}
+      ],
+      "commentEffect": [1, -2, 3],
+      "likeEffect": 1
+    },
+    {
+      "id": 2,
+      "description": "Kucing kecil tidur di atas keyboard.",
+      "effect_name": "mood",
+      "effect": 3,
+      "dialogue": [
+        "ASTAGA lucu banget!",
+        "Gimana aku bisa kerja kalo beginian?"
+      ],
+      "commments": [
+        {"name": "Naya", "comment": "Gemessss!"},
+        {"name": "Leon", "comment": "Kucingnya kayak aku tiap lembur."},
+        {"name": "Ana", "comment": "Boleh aku adopsi?"}
+      ],
+      "commentEffect": [2, -1, 3],
+      "likeEffect": 1
+    },
+    {
+      "id": 3,
+      "description": "Hujan deras di luar jendela, suara air menenangkan.",
+      "effect_name": "mood",
+      "effect": 1,
+      "dialogue": [
+        "Hujan tuh calming banget ya.",
+        "Bawaannya pengen tidur."
+      ],
+      "commments": [
+        {"name": "Gio", "comment": "Favorit banget suasana gini."},
+        {"name": "Rara", "comment": "Mau kopi panas jadinya."},
+        {"name": "Bimo", "comment": "Aduh nostalgia banget…"}
+      ],
+      "commentEffect": [-3, 1, 2],
+      "likeEffect": 1
+    },
+    {
+      "id": 4,
+      "description": "Sepasang burung hinggap di pagar balkon.",
+      "effect_name": "mood",
+      "effect": 1,
+      "dialogue": [
+        "Kok mereka so sweet banget ya.",
+        "Aku aja kapan?"
+      ],
+      "commments": [
+        {"name": "Diana", "comment": "Lucu banget berduanya."},
+        {"name": "Kris", "comment": "Ini aku dan siapa ya…"},
+        {"name": "Jenny", "comment": "Bikin iri gak sih."}
+      ],
+      "commentEffect": [3, -1, 2],
+      "likeEffect": 1
+    },
+    {
+      "id": 5,
+      "description": "Poster film aksi terbaru yang semua orang bahas.",
+      "effect_name": "mood",
+      "effect": -2,
+      "dialogue": [
+        "Hmmm… hype tapi nggak yakin bagus.",
+        "Kayaknya over-rated deh."
+      ],
+      "commments": [
+        {"name": "Tovan", "comment": "Aku suka kok!"},
+        {"name": "Mika", "comment": "Belum nonton… worth it?"},
+        {"name": "Yusuf", "comment": "Trailernya keren sih."}
+      ],
+      "commentEffect": [-2, 1, 3],
+      "likeEffect": 1
+    },
+    {
+      "id": 6,
+      "description": "Secangkir kopi hitam panas dengan latte art sederhana.",
+      "effect_name": "energy",
+      "effect": 1,
+      "dialogue": [
+        "Wah ini bikin semangat naik lagi.",
+        "Panasnya pas banget."
+      ],
+      "commments": [
+        {"name": "Bela", "comment": "Enak banget keliatannya."},
+        {"name": "Rio", "comment": "Aku tim kopi pahit juga!"},
+        {"name": "Mae", "comment": "Minimalis tapi aesthetic."}
+      ],
+      "commentEffect": [1, -1, 1],
+      "likeEffect": 1
+    },
+    {
+      "id": 7,
+      "description": "Anjing kecil berlari mengejar bola.",
+      "effect_name": "mood",
+      "effect": 3,
+      "dialogue": [
+        "Kok lucu banget sih!",
+        "Energinya bikin ikut senang."
+      ],
+      "commments": [
+        {"name": "Eka", "comment": "Gemas parah."},
+        {"name": "Kian", "comment": "Anjingku juga suka begini!"},
+        {"name": "Salsa", "comment": "Bisa ku bawa pulang gak?"}
+      ],
+      "commentEffect": [2, 3, -1],
+      "likeEffect": 1
+    },
+    {
+      "id": 8,
+      "description": "Foto sarapan roti dan telur yang simpel tapi enak.",
+      "effect_name": "energy",
+      "effect": 1,
+      "dialogue": [
+        "Lumayan buat mulai hari.",
+        "Simple tapi ngenyangin sih."
+      ],
+      "commments": [
+        {"name": "Kevin", "comment": "Sarapan favoritku."},
+        {"name": "Lulu", "comment": "Aesthe banget platingnya."},
+        {"name": "Alvin", "comment": "Jadi lapar liat ini."}
+      ],
+      "commentEffect": [1, -1, 1],
+      "likeEffect": 1
+    },
+    {
+      "id": 9,
+      "description": "Lukisan abstrak berwarna biru dan putih yang menenangkan.",
+      "effect_name": "mood",
+      "effect": 2,
+      "dialogue": [
+        "Warnanya calming banget.",
+        "Rasanya adem liatnya."
+      ],
+      "commments": [
+        {"name": "Meta", "comment": "Keren ya estetikanya."},
+        {"name": "Fadli", "comment": "Kayak ombak tenang."},
+        {"name": "Zee", "comment": "Bikin pengen gambar lagi."}
+      ],
+      "commentEffect": [3, 1, -2],
+      "likeEffect": 1
+    },
+    {
+      "id": 10,
+      "description": "Jalanan sepi jam 3 pagi, lampu kota masih menyala tenang.",
+      "effect_name": "mood",
+      "effect": -1,
+      "dialogue": [
+        "Sepi banget ya.",
+        "Kayak suasana game horor."
+      ],
+      "commments": [
+        {"name": "Rika", "comment": "Aku suka vibe malam begini."},
+        {"name": "Jo", "comment": "Agak creepy sih."},
+        {"name": "Nero", "comment": "Aesthetic tapi dingin."}
+      ],
+      "commentEffect": [-3, 2, 1],
+      "likeEffect": 1
+    },
+    {
+      "id": 11,
+      "description": "Tumpukan buku-buku motivasi di meja kerja.",
+      "effect_name": "energy",
+      "effect": 1,
+      "dialogue": [
+        "Kayaknya harus mulai baca satu deh.",
+        "Motivasi naik dikit nih."
+      ],
+      "commments": [
+        {"name": "Tila", "comment": "Ada yang bagus tuh!"},
+        {"name": "Dio", "comment": "Aku punya yang kanan!"},
+        {"name": "Rey", "comment": "Rapi banget mejanya."}
+      ],
+      "commentEffect": [1, -1, 1],
+      "likeEffect": 1
+    },
+    {
+      "id": 12,
+      "description": "Poster konser band indie yang akan datang.",
+      "effect_name": "mood",
+      "effect": 1,
+      "dialogue": [
+        "Keren nih band-nya.",
+        "Bisa jadi seru konsernya."
+      ],
+      "commments": [
+        {"name": "Novi", "comment": "Aku juga mau nonton!"},
+        {"name": "Ian", "comment": "Lagunya enak-enak semua."},
+        {"name": "Santi", "comment": "Ajak aku dong!"}
+      ],
+      "commentEffect": [-2, 3, 1],
+      "likeEffect": 1
+    },
+    {
+      "id": 13,
+      "description": "Gelas air bening dengan es, kelihatan seger banget.",
+      "effect_name": "energy",
+      "effect": 1,
+      "dialogue": [
+        "Ah, ini menyegarkan.",
+        "Butuh banget minum dingin."
+      ],
+      "commments": [
+        {"name": "Vino", "comment": "Segar banget liatnya."},
+        {"name": "Lara", "comment": "Aku butuh ini sekarang."},
+        {"name": "Mira", "comment": "Aqua aesthetic."}
+      ],
+      "commentEffect": [-1, 1, 1],
+      "likeEffect": 1
+    },
+    {
+      "id": 14,
+      "description": "Foto kamar berantakan tapi cozy, penuh buku dan kabel.",
+      "effect_name": "mood",
+      "effect": 0,
+      "dialogue": [
+        "Ini berantakan… tapi relatable.",
+        "Kayaknya seperti kamar aku."
+      ],
+      "commments": [
+        {"name": "Sasa", "comment": "Ini seni namanya chaos."},
+        {"name": "Dean", "comment": "Nyaman kok liatnya."},
+        {"name": "Kim", "comment": "Real banget."}
+      ],
+      "commentEffect": [1, -3, 2],
+      "likeEffect": 1
+    },
+    {
+      "id": 15,
+      "description": "Foto gunung berkabut, suasananya damai dan misterius.",
+      "effect_name": "mood",
+      "effect": 3,
+      "dialogue": [
+        "Ini sih gila indahnya.",
+        "Tenang banget liatnya."
+      ],
+      "commments": [
+        {"name": "Zain", "comment": "Wah ini wallpaper banget."},
+        {"name": "Cici", "comment": "Damai banget suasananya."},
+        {"name": "Adit", "comment": "Bikin pengen hiking."}
+      ],
+      "commentEffect": [3, -1, 2],
+      "likeEffect": 1
+    }
+  ]
+}
