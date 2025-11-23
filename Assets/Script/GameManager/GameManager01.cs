@@ -223,6 +223,7 @@ public class GameManager01 : MonoBehaviour
         {
             isLookToMe = true;
             animatorPenumpang.Play("look", 0, 0);
+            StartCoroutine(HUDManager.Instance.StartAnimationTextDialogue("Excuse me,Can You keep your sound for yourself?"));
         }
         if (vol_content < 8 && isLookToMe)
         {

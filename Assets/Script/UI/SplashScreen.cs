@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SplashScreen : MonoBehaviour
 {
@@ -27,6 +28,12 @@ public class SplashScreen : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("Home");
+        }
+
+        
         float time = Time.time;
 
         // Logo Animation

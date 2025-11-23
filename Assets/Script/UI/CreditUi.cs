@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CreditUi : MonoBehaviour
 {
@@ -86,7 +87,7 @@ public class CreditUi : MonoBehaviour
             c.a = 0f;
             closingText.color = c;
         }
-        
+
         StartCoroutine(BackgroundRoutine());
         if (textList != null && textList.Count > 0)
         {
@@ -98,7 +99,7 @@ public class CreditUi : MonoBehaviour
     {
         // Cinematic Panning
         uvRect.x += scrollSpeed * Time.deltaTime;
-        
+
         if (uvRect.x > 100f) uvRect.x -= 100f;
 
         // Apply to all images so they stay in sync
@@ -183,7 +184,14 @@ public class CreditUi : MonoBehaviour
 
         // 4. Fade Out Closing Background (Optional)
         if (closingBackground != null)
+        {
             yield return StartCoroutine(FadeImage(closingBackground, 1f, 0f));
+            SceneManager.UnloadSceneAsync("CreditUI");
+        }
+
+
+
+
     }
 
     private IEnumerator FadeImage(RawImage img, float startAlpha, float endAlpha)
@@ -195,15 +203,17 @@ public class CreditUi : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / fadeDuration);
-            
+
             color.a = Mathf.Lerp(startAlpha, endAlpha, t);
             img.color = color;
-            
+
             yield return null;
         }
 
         color.a = endAlpha;
         img.color = color;
+
+
     }
 
     private IEnumerator FadeText(TMP_Text txt, float startAlpha, float endAlpha)
@@ -215,10 +225,10 @@ public class CreditUi : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / textFadeDuration);
-            
+
             color.a = Mathf.Lerp(startAlpha, endAlpha, t);
             txt.color = color;
-            
+
             yield return null;
         }
 
