@@ -9,6 +9,9 @@ public class ContentsScript : MonoBehaviour
 
     [SerializeField] List<ContentData> fyp;
 
+    public List<Animator> contentAnimator;
+    [SerializeField] List<RuntimeAnimatorController> listControllerAnimator;
+
     // skeleton
     public static ContentsScript Instance;
 
@@ -94,28 +97,33 @@ public class ContentsScript : MonoBehaviour
             return;
         }
 
-        List<int> id_contents = GetRandomUniqueList(count, 1, 15);
+        List<int> id_contents = GetRandomUniqueList(count, 1, 30);
+        int i = 0;
         foreach (int cont in id_contents)
         {
+            contentAnimator[i].runtimeAnimatorController  = listControllerAnimator[cont];
+            
             ContentData data = GetContentById(cont);
             if (data != null)
                 fyp.Add(data);
             else
                 Debug.LogWarning($"ContentsScript.LoadFyp: content with id {cont} not found.");
-        }
 
-        LoadContent();
-    }
-
-    void LoadContent()
-    {
-        int i = 0;
-        foreach (SpriteRenderer spriteRenderer in HUDManager.Instance.spriteRenderersContent)
-        {
-            spriteRenderer.sprite = contentSpriteList[fyp[i].id - 1];
             i++;
         }
+
+        // LoadContent();
     }
+
+    // void LoadContent()
+    // {
+    //     int i = 0;
+    //     foreach (SpriteRenderer spriteRenderer in HUDManager.Instance.spriteRenderersContent)
+    //     {
+    //         spriteRenderer.sprite = contentSpriteList[fyp[i].id - 1];
+    //         i++;
+    //     }
+    // }
 
     public void PrepareContentFeed(ContentData contentData)
     {
@@ -130,7 +138,7 @@ public class ContentsScript : MonoBehaviour
 
         // prepare dialog
         if (GameManager01.Instance.GetIsCanDialog() && contentData.dialogue != null)
-        {   
+        {
             StartCoroutine(HUDManager.Instance.StartAnimationTextDialogue(contentData.dialogue[Random.Range(0, contentData.dialogue.Count)]));
         }
         // prepare audio

@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -156,9 +156,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1485
-        height: 2400
+        y: 2134
+        width: 165
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,11 +173,1683 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: meme4_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9131cc220892ecc419ab11a540451a12
+      internalID: 478889044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f37c50c5fef664ab4cecdde711eea9
+      internalID: -274662767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6bc85f325642549aaba35507a7025a
+      internalID: 320120020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3868dfbe879762949b51d48eea286098
+      internalID: -1466197428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d0e3eea439a144b9e6de9ed8ece5cb
+      internalID: 487767332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175898cc19d80974093a1947e8158d68
+      internalID: 410244530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_7
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925b4100dccb86f46b81dd9eabf2aeda
+      internalID: 1442227404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_8
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2134
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4de2f673932406439ebdbea0de5dcd7
+      internalID: 173755226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb7c48f33b255044bd098e09763e242
+      internalID: 1440559121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c82f99ddd68ba4448f3ae5747bdeaaf
+      internalID: 1772972549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c7f9bf40c3b04abff406a0373acac
+      internalID: 2030912321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a03788725ac8f48bb8746f1555b568
+      internalID: -1596102808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_13
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201175ae1a216b4b9337c49ec5bb345
+      internalID: 307272650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_14
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d326d4e7528547ab1599f2c27d68e
+      internalID: -180579246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_15
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aff075453b16bc4b80512ea080b07c1
+      internalID: -1563512529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_16
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478a38e5bbfa2c1489e292aa6852b76e
+      internalID: -2100184503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_17
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1868
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f23b569d88de4f8577a83c3a5f784
+      internalID: 420293196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f628e26119af1a44a40d206e8019f94
+      internalID: -2146205396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3655f2c359c0846bc3613833ffa5a4
+      internalID: 6486536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4d88605e0a3e749bfd4bb898ab0501
+      internalID: 1327980299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59c6c6cd2237a54bb47df075a5c8a59
+      internalID: -1472687461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58116ea4e672e2d44844864be869d487
+      internalID: 1595156789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_23
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4319fd5e1b377554f8f2c9deefb8f95a
+      internalID: 1408526456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_24
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e90e53d809aa8147a13ede09f4724ab
+      internalID: 1395922160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_25
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a09efadc4a3953408ec22d8df5d2b2b
+      internalID: -187754727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_26
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1602
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df97b350e799fb64fbdb67f3078b7377
+      internalID: 1137201284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d747d24d61f17724b9974514b312199f
+      internalID: 1557400707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_28
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d51bea53d2e00d4390b10ddefe3962e
+      internalID: -1606607732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff1a486696806a4c9f29c937823cbd1
+      internalID: 1067877541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_30
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435cef69bc75a364bbc3cff1f223cb0b
+      internalID: 733105047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_31
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b843a8bdbf49d047ac768826d11da29
+      internalID: 1554986144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_32
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f814c9c819173e947ab09fcfe0d67374
+      internalID: 405472935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_33
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32052d681355954984448ee6b64471d
+      internalID: -1310157608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_34
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599e66ef9f2f9144fb86137bf8931218
+      internalID: -280735740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_35
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1336
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719574d3fecf0c247b48b1c82849411e
+      internalID: -2117019675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e599ed7183dc77140abe929c9f0a6c06
+      internalID: -2100350089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_37
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08dbc791b6523d43af280839fc90683
+      internalID: -867010917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_38
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a9c99aeff7c014a97deb7d59364b91
+      internalID: 1289225028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_39
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c2cc994006e3248b52a3373db1f52f
+      internalID: -2093362745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_40
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1208acccd214ad4b93934d12f9ee773
+      internalID: 1481578171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_41
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b176f929ecfdae4e87d128ca9ba83a0
+      internalID: -245791120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_42
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9704a3af0b0ad4d9c7674bea3cccbd
+      internalID: 893406264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_43
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc55ef84a12f7445bff88ed1a1ffa1c
+      internalID: 878577676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_44
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1070
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fbed0c5dc0bae42ac96dfc671127dc
+      internalID: -1411275051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e612ac1cf566bf4db28f125a03888d6
+      internalID: -1408222213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_46
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e092ab76ea2da8b43ac6a191a367fe14
+      internalID: -1507132571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_47
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f9391ca7cdcf940bc3aece09bae913
+      internalID: 1114791786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_48
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82af4e84255e704c84bfb7505db57a5
+      internalID: -1762456271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_49
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a2f01104e5da14e97da5c33ef3268a
+      internalID: -92521805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_50
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115684b547ea11f47bd41d2f49c06f51
+      internalID: -1167744722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_51
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e3a7677265b954b94e5e58f35a0c8b
+      internalID: 1272259079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_52
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5511c58bebd05ec4681af187fcea11a7
+      internalID: -931189458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_53
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 804
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c421bcf64cedb554db14535fe7bc772e
+      internalID: -2060718529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc776cfe2cdaff43b29b057b541fde2
+      internalID: -48054012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15733e567d7de184dbb5e1bc4f25838f
+      internalID: 249911303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_56
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9366b6db26e03488c104acb2524e42
+      internalID: -80862648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_57
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b397f3fe19e7042a337de2ddb609e3
+      internalID: -1972725872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_58
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2dd43494e44d549b75e9381a7324d1
+      internalID: -1425452280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_59
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cd8e03dfc68224fb6408a8bc20a000
+      internalID: 860444396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_60
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31cfdbc5097f214a9378f88ba4ce640
+      internalID: -1323299054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_61
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065fcd83eade35c468821446adf6caea
+      internalID: 1958287978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_62
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 538
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd58e7bc6cae1042b593f7a0b6a0e64
+      internalID: 2128809211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ab9830e6653724494000fdcdd4be7c
+      internalID: 244799231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_64
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb36b57a4e3c234c8848e3c047ecae1
+      internalID: -463004528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_65
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff22e8f309d638b4f8a20c3160303c10
+      internalID: -1478348818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_66
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79d24a9d4768fb4eaf1b2a2b0965d9f
+      internalID: -211033268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_67
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6178b988861d6469ecb0c3831c9bc2
+      internalID: -361984607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_68
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5850e792622c6ae4788d223bb0964d3f
+      internalID: -167214073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_69
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35000d3c08ae86e489b755e5d6081fdd
+      internalID: -1008524454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_70
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a445c57f4bd9e4e40b04baa1054b36a9
+      internalID: 541224358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_71
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 272
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e027cf042655d34caf7f1a28f6189c9
+      internalID: 1688081966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71569e72fad55ac419a39c6511ec6563
+      internalID: -1944128784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_73
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 6
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226db886ff166a54ebd87311e79a580d
+      internalID: 1048707661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_74
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 6
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e608727762694f8014d7710b0241d
+      internalID: -147284235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_75
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 6
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a679417b511384459160e572a4ead7b
+      internalID: -395793401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meme4_76
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 6
+        width: 165
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351afbce7f38f814f8ddba36534a5d9a
+      internalID: 297562422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6fec34d9182384241ba46cef38e77379
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +1857,91 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":9.0},"gridSpriteSize":{"x":165.0,"y":266.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       meme4_0: 668712674625935205
+      meme4_1: 478889044
+      meme4_10: 1772972549
+      meme4_11: 2030912321
+      meme4_12: -1596102808
+      meme4_13: 307272650
+      meme4_14: -180579246
+      meme4_15: -1563512529
+      meme4_16: -2100184503
+      meme4_17: 420293196
+      meme4_18: -2146205396
+      meme4_19: 6486536
+      meme4_2: -274662767
+      meme4_20: 1327980299
+      meme4_21: -1472687461
+      meme4_22: 1595156789
+      meme4_23: 1408526456
+      meme4_24: 1395922160
+      meme4_25: -187754727
+      meme4_26: 1137201284
+      meme4_27: 1557400707
+      meme4_28: -1606607732
+      meme4_29: 1067877541
+      meme4_3: 320120020
+      meme4_30: 733105047
+      meme4_31: 1554986144
+      meme4_32: 405472935
+      meme4_33: -1310157608
+      meme4_34: -280735740
+      meme4_35: -2117019675
+      meme4_36: -2100350089
+      meme4_37: -867010917
+      meme4_38: 1289225028
+      meme4_39: -2093362745
+      meme4_4: -1466197428
+      meme4_40: 1481578171
+      meme4_41: -245791120
+      meme4_42: 893406264
+      meme4_43: 878577676
+      meme4_44: -1411275051
+      meme4_45: -1408222213
+      meme4_46: -1507132571
+      meme4_47: 1114791786
+      meme4_48: -1762456271
+      meme4_49: -92521805
+      meme4_5: 487767332
+      meme4_50: -1167744722
+      meme4_51: 1272259079
+      meme4_52: -931189458
+      meme4_53: -2060718529
+      meme4_54: -48054012
+      meme4_55: 249911303
+      meme4_56: -80862648
+      meme4_57: -1972725872
+      meme4_58: -1425452280
+      meme4_59: 860444396
+      meme4_6: 410244530
+      meme4_60: -1323299054
+      meme4_61: 1958287978
+      meme4_62: 2128809211
+      meme4_63: 244799231
+      meme4_64: -463004528
+      meme4_65: -1478348818
+      meme4_66: -211033268
+      meme4_67: -361984607
+      meme4_68: -167214073
+      meme4_69: -1008524454
+      meme4_7: 1442227404
+      meme4_70: 541224358
+      meme4_71: 1688081966
+      meme4_72: -1944128784
+      meme4_73: 1048707661
+      meme4_74: -147284235
+      meme4_75: -395793401
+      meme4_76: 297562422
+      meme4_77: 1429340348
+      meme4_78: -1510257779
+      meme4_79: -829451746
+      meme4_8: 173755226
+      meme4_80: -1108668681
+      meme4_9: 1440559121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

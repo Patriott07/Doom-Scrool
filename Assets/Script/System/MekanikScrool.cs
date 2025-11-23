@@ -3,7 +3,7 @@ using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 using Model.Content;
-
+using UnityEngine.Animations;
 public class MekanikScrool : MonoBehaviour
 {
     [SerializeField] int index = 0;
@@ -70,6 +70,8 @@ public class MekanikScrool : MonoBehaviour
 
         CurrentCont = ContentsScript.Instance.GetContentById(index + 1);
         ContentsScript.Instance.PrepareContentFeed(CurrentCont);
+
+        ContentsScript.Instance.contentAnimator[index].Play("show");
 
         if (CurrentCont.effect_name == "mood")
         {
