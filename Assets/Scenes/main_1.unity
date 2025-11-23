@@ -243,9 +243,9 @@ MonoBehaviour:
   isPaused: 0
   isCanEvent: 1
   isCanDialog: 1
-  id_env: 5
+  id_env: 1
   second: 0
-  hour: 17
+  hour: 4
   times: 0
   mood: 100
   eventTriggerDur: 500
@@ -1226,7 +1226,7 @@ SpriteRenderer:
   m_SortingLayerID: -2084932967
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4207744845472575085, guid: bc07777d74fb2dc49a39f68636744f87, type: 3}
+  m_Sprite: {fileID: 474463074163801509, guid: a9083353844902342b5cb1b5cb89c295, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1246,8 +1246,8 @@ Transform:
   m_GameObject: {fileID: 284176032}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3232, y: -0.2279, z: 0}
-  m_LocalScale: {x: 2.590018, y: 2.8899748, z: 2.84895}
+  m_LocalPosition: {x: 1.2573, y: -0.4105, z: 0}
+  m_LocalScale: {x: 0.33332947, y: 0.34311822, z: 0.30225}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

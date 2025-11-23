@@ -243,13 +243,13 @@ MonoBehaviour:
   isPaused: 0
   isCanEvent: 1
   isCanDialog: 1
-  id_env: 5
+  id_env: 4
   second: 0
-  hour: 17
+  hour: 16
   times: 0
   mood: 100
-  eventTriggerDur: 500
-  vol_content: 8
+  eventTriggerDur: 60
+  vol_content: 4
   prefab_canvasText: {fileID: 5309495071002364002, guid: 3277f7f483a94e44aa37454bcb898222, type: 3}
   hideDelay: 2
   isLookToMe: 0
@@ -1168,9 +1168,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284176032}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8962e1d3e9ae01b489be406ec4231030, type: 2}
+  m_Controller: {fileID: 9100000, guid: 79349882dce61084ea88182132be74ad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1226,7 +1226,7 @@ SpriteRenderer:
   m_SortingLayerID: -2084932967
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4207744845472575085, guid: bc07777d74fb2dc49a39f68636744f87, type: 3}
+  m_Sprite: {fileID: 1518222400798677588, guid: f9864e128c57bfd4c9a121d944b19fba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1246,8 +1246,8 @@ Transform:
   m_GameObject: {fileID: 284176032}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3232, y: -0.2279, z: 0}
-  m_LocalScale: {x: 2.590018, y: 2.8899748, z: 2.84895}
+  m_LocalPosition: {x: 1.1219, y: -0.2, z: 0}
+  m_LocalScale: {x: 1.5280789, y: 1.5729533, z: 1.3856018}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1259,7 +1259,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284176032}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70b22ae3fb5d47b4b8a351fb676aedc2, type: 3}
   m_Name: 

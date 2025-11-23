@@ -22,6 +22,10 @@ public class GameManager01 : MonoBehaviour
     public static GameManager01 Instance;
     List<GameObject> TextPopup = new List<GameObject>();
 
+    [Header("== Level 2 Only ==")]
+    [SerializeField] bool isLookToMe = false;
+    [SerializeField] Animator animatorPenumpang;
+
     void Awake()
     {
         Instance = this;
@@ -34,9 +38,33 @@ public class GameManager01 : MonoBehaviour
     }
     void Start()
     {
+        mood = PlayerPrefs.GetInt("mood", 100);
+        Debug.Log("GameManager01.Start() called");
+
         // InvokeRepeating("UpdateMood", 0f, 5f);
         InvokeRepeating("TimerUp", 1f, 1f);
         SetVolumeContent(1);
+
+        if (HUDManager.Instance == null)
+        {
+            Debug.LogError("GameManager01.Start: HUDManager.Instance is null");
+            return;
+        }
+
+        CanvasGroup bgCanvasGroup = HUDManager.Instance.GetCGBG();
+        if (bgCanvasGroup == null)
+        {
+            Debug.LogError("GameManager01.Start: CG_bg (CanvasGroup) is null");
+            return;
+        }
+
+        Debug.Log("GameManager01.Start: Starting fade animation");
+        bgCanvasGroup.alpha = 1;
+
+        StartCoroutine(WaitFor(3f, () =>
+        {
+            bgCanvasGroup.DOFade(0f, 3f);
+        }));
 
     }
 
@@ -72,6 +100,10 @@ public class GameManager01 : MonoBehaviour
             isFinished = true;
             //Do next bg
             Debug.Log("Next Load BG");
+
+            PlayerPrefs.SetInt("mood", mood);
+            PlayerPrefs.Save();
+
             HUDManager.Instance.GetCGBG().DOFade(1, 2f).OnComplete(() =>
             {
                 SceneManager.LoadScene($"main_{id_env + 1}");
@@ -162,9 +194,10 @@ public class GameManager01 : MonoBehaviour
     public void SetMoodVal(int add)
     {
         if (add > 0) mood += add;
-        else mood += add * 8;
+        else mood += add * 5;
 
         if (mood >= 100) mood = 100;
+        if (mood <= 0) mood = 0;
 
         UpdateMood();
     }
@@ -180,6 +213,27 @@ public class GameManager01 : MonoBehaviour
     void UpdateMood()
     {
         HUDManager.Instance.SetTextMood(mood);
+    }
+
+    void Level2()
+    {
+        if (id_env != 2) return;
+
+        if (vol_content >= 8 && !isLookToMe)
+        {
+            isLookToMe = true;
+            animatorPenumpang.Play("look", 0, 0);
+        }
+        if (vol_content < 8 && isLookToMe)
+        {
+            isLookToMe = false;
+            animatorPenumpang.Play("idle", 0, 0);
+        }
+    }
+
+    void Level3()
+    {
+        if (id_env != 2) return;
     }
 
     // Update is called once per frame
@@ -210,7 +264,12 @@ public class GameManager01 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M))
             HUDManager.Instance.ToggleMuteMusic();
 
-        // CheckAudioState();
+        CheckAudioState();
+
+        // Level2 dan Level 3
+
+        Level2();
+        Level3();
     }
 
 
@@ -290,10 +349,29 @@ public class GameManager01 : MonoBehaviour
         if (vol_content > 8) vol_content = 8;
         if (vol_content < 0) vol_content = 0;
 
+        // Guard: Check HUDManager.Instance and fillAudio before using
+        if (HUDManager.Instance == null)
+        {
+            Debug.LogError("GameManager01.SetVolumeContent: HUDManager.Instance is null.");
+            return;
+        }
+
+        if (HUDManager.Instance.fillAudio == null)
+        {
+            Debug.LogError("GameManager01.SetVolumeContent: HUDManager.Instance.fillAudio is null.");
+            return;
+        }
+
         // Update UI
         HUDManager.Instance.UpdateFillImage(HUDManager.Instance.fillAudio, vol_content);
 
         // Atur volume audio
+        if (AudioManager.Instance == null)
+        {
+            Debug.LogError("GameManager01.SetVolumeContent: AudioManager.Instance is null.");
+            return;
+        }
+
         float maxVol = 1f;
 
         // Kalau vol_content = 0, biar gak crash → volume = 0

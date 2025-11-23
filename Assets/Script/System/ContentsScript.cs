@@ -97,11 +97,33 @@ public class ContentsScript : MonoBehaviour
             return;
         }
 
+        if (contentAnimator == null || contentAnimator.Count == 0)
+        {
+            Debug.LogWarning("ContentsScript.LoadFyp: contentAnimator list is null or empty. Skipping animator assignment.");
+        }
+
+        if (listControllerAnimator == null || listControllerAnimator.Count == 0)
+        {
+            Debug.LogWarning("ContentsScript.LoadFyp: listControllerAnimator is null or empty. Skipping controller assignment.");
+        }
+
         List<int> id_contents = GetRandomUniqueList(count, 1, 30);
         int i = 0;
         foreach (int cont in id_contents)
         {
-            contentAnimator[i].runtimeAnimatorController  = listControllerAnimator[cont];
+            // Safely assign animator controller if both lists are valid and index is within bounds
+            if (contentAnimator != null && i < contentAnimator.Count && listControllerAnimator != null && cont < listControllerAnimator.Count)
+            {
+                contentAnimator[i].runtimeAnimatorController = listControllerAnimator[cont];
+            }
+            else if (contentAnimator != null && i >= contentAnimator.Count)
+            {
+                Debug.LogWarning($"ContentsScript.LoadFyp: contentAnimator index {i} is out of bounds (count: {contentAnimator.Count}). Skipping.");
+            }
+            else if (listControllerAnimator != null && cont >= listControllerAnimator.Count)
+            {
+                Debug.LogWarning($"ContentsScript.LoadFyp: listControllerAnimator index {cont} is out of bounds (count: {listControllerAnimator.Count}). Skipping.");
+            }
             
             ContentData data = GetContentById(cont);
             if (data != null)
@@ -142,10 +164,10 @@ public class ContentsScript : MonoBehaviour
             StartCoroutine(HUDManager.Instance.StartAnimationTextDialogue(contentData.dialogue[Random.Range(0, contentData.dialogue.Count)]));
         }
         // prepare audio
-        // AudioManager audioManager = AudioManager.Instance;
-        // audioManager.aS_content.Stop();
-        // audioManager.SetClip(audioManager.aS_content, audioManager.audioClipsContent[contentData.id]);
-        // audioManager.aS_content.Play();
+        AudioManager audioManager = AudioManager.Instance;
+        audioManager.aS_content.Stop();
+        audioManager.SetClip(audioManager.aS_content, audioManager.audioClipsContent[contentData.id]);
+        audioManager.aS_content.Play();
     }
 
 }

@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -157,7 +157,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 15372
+        width: 1281
         height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -173,11 +173,253 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3646cc542a1743c438f21dacd99ef649
+      internalID: -2095920665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ed2816d06682c4c9c5907aab34c59c
+      internalID: 1667563711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff814a9aff94bfd4cb0dfc739e37df68
+      internalID: -1347193655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa45f91d872063f4997cf9cf0a47c793
+      internalID: 736595246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 6405
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383a09a3cc8590d4f8e62065350ee49e
+      internalID: -743834829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7686
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e677d4bc1de3ac946bb0a106cf2c39d3
+      internalID: 898418869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8967
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a484598d3f9113e4f8095542de2cae12
+      internalID: -1901107161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33961bf6aabb69544a34db82649d1636
+      internalID: 84917599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 11529
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7acfec49112fe4ea4b4028fdb45376
+      internalID: -88406218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 12810
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0472e77bef3ab4fa779ffcaccefaf2
+      internalID: -507745694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bis-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 14091
+        y: 0
+        width: 1281
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57499e07a495fc548918cecdc11f36a1
+      internalID: 1691429159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e7eb52a6091ac1c43906b7b46bcbff5d
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +427,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":12.0,"y":1.0},"gridSpriteSize":{"x":1281.0,"y":720.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bis-Sheet_0: -3890142124361252765
+      bis-Sheet_1: -2095920665
+      bis-Sheet_10: -507745694
+      bis-Sheet_11: 1691429159
+      bis-Sheet_2: 1667563711
+      bis-Sheet_3: -1347193655
+      bis-Sheet_4: 736595246
+      bis-Sheet_5: -743834829
+      bis-Sheet_6: 898418869
+      bis-Sheet_7: -1901107161
+      bis-Sheet_8: 84917599
+      bis-Sheet_9: -88406218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
