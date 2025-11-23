@@ -1266,7 +1266,7 @@ GameObject:
   - component: {fileID: 877315590}
   - component: {fileID: 877315589}
   m_Layer: 5
-  m_Name: BgTengkyu'
+  m_Name: BgTengkyu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1600,7 +1600,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Terima Kasih
+  m_text: Thank You :)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d587228ceeb03845a7cd70bc5c7b3b0, type: 2}
   m_sharedMaterial: {fileID: -8613602997791075361, guid: 7d587228ceeb03845a7cd70bc5c7b3b0, type: 2}
